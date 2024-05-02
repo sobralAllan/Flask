@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+  <br><br><br>
+  <form action="/autenticar">
+      <label> Usuário: </label>
+      <input type="text" name="usuario"><br><br>
+
+      <label> Senha: </label>
+      <input type="text" name="senha"><br><br>
+
+      <button type="submit"> Enviar </button>
+  </form>
+{% endblock %}
